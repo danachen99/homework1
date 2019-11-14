@@ -1,4 +1,28 @@
-img {
-    width: 100px;
-    height: 100px;
+#myImg {
+    float: left;
 }
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.wrapper {
+    width: 960px;
+    padding: 20px;
+    margin: auto;
+    background: white;
+}
+
+#fixedHead {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    margin: 0;
+    text-align: inherit;
+    background: #eee;
+}
+
+
+/* . for class # for id */
