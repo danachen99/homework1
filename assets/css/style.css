@@ -1,5 +1,5 @@
 * {
-    background-image: url(../images/dot-grid.png);
+    background-image: url(../images/interlaced.png);
     background-repeat: repeat;
 }
 
@@ -7,6 +7,10 @@
     float: left;
     border-width: 10px;
     border-color: red;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    background: white;
+    ;
 }
 
 img {
@@ -14,47 +18,93 @@ img {
     height: 200px;
 }
 
-.wrapper {
+.header {
+    display: block;
     position: relative;
-    max-width: 960px;
-    padding: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    background: white;
-    border-width: 100px;
-    border-color: red;
+    top: auto;
+    left: auto;
+    width: auto;
+    height: 30px;
+    padding: 10px;
+    /* margin: auto; */
+    margin: 0px;
+    border-width: 50px;
+    /* border-color: #cccccc; */
+    /* text-align: inherit; */
+    /* background: #ffffff; */
+    background: #ffffff;
+}
+
+#name {
+    display: block;
+    position: absolute;
+    top: 10;
+    left: 50;
+    width: 200px;
+    background: #4aaaa5;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+#navBar {
+    position: absolute;
+    /* float: right; */
+    background: #ffffff;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 15px;
+    right: 0;
+    bottom: -8;
+    width: 200px;
+    text-align: center;
+}
+
+.wrapper {
+    border-image: url(../images/interlaced.png);
     /* top riht bottom left */
     /* margin, border, padding, box */
 }
 
-.fixedHead {
-    position: fixed;
-    top: auto;
-    left: auto;
-    width: 960px;
-    height: 30px;
-    padding: 10px;
-    margin: auto;
-    text-align: inherit;
-    background: #4aaaa5;
+#content {
+    background: #ffffff;
+    position: relative;
+    max-width: 960px;
+    width: 900px;
+    padding: 60px;
+    /* border: 100px; */
+    margin-left: auto;
+    margin-right: auto;
+    border: 20px;
+    border-color: #dddddd;
 }
 
 .footer {
     position: relative;
-    /* top: ;
-    left: ; */
-    width: 1000px;
+    top: auto;
+    left: auto;
+    width: auto;
     height: 30px;
     background: #4aaaa5;
+    text-align: center;
+    color: gray;
 }
 
-#navBar {
-    float: right;
-    background-color: #4aaaa5;
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    background: white;
 }
 
-#name {
-    float: left;
+p {
+    background: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 15px;
+    color: #777777;
 }
 
 
