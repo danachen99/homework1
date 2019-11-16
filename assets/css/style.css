@@ -1,5 +1,12 @@
-#myImg {
+* {
+    background-image: url(../images/dot-grid.png);
+    background-repeat: repeat;
+}
+
+#myImage {
     float: left;
+    border-width: 10px;
+    border-color: red;
 }
 
 img {
@@ -8,20 +15,46 @@ img {
 }
 
 .wrapper {
-    width: 960px;
-    padding: 20px;
-    margin: auto;
+    position: relative;
+    max-width: 960px;
+    padding: 100px;
+    margin-left: auto;
+    margin-right: auto;
     background: white;
+    border-width: 100px;
+    border-color: red;
+    /* top riht bottom left */
+    /* margin, border, padding, box */
 }
 
-#fixedHead {
+.fixedHead {
     position: fixed;
-    top: 0;
-    left: 0;
+    top: auto;
+    left: auto;
+    width: 960px;
+    height: 30px;
     padding: 10px;
-    margin: 0;
+    margin: auto;
     text-align: inherit;
-    background: #eee;
+    background: #4aaaa5;
+}
+
+.footer {
+    position: relative;
+    /* top: ;
+    left: ; */
+    width: 1000px;
+    height: 30px;
+    background: #4aaaa5;
+}
+
+#navBar {
+    float: right;
+    background-color: #4aaaa5;
+}
+
+#name {
+    float: left;
 }
 
 
