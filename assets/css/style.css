@@ -3,6 +3,10 @@
     background-repeat: repeat;
 }
 
+body {
+    background: #ffffff;
+}
+
 #myImage {
     float: left;
     border-width: 10px;
@@ -78,7 +82,7 @@ a {
     max-width: 960px;
     min-height: 100%;
     width: 900px;
-    padding: 60px;
+    padding: 58px;
     padding-top: 20px;
     padding-bottom: 40px;
     margin-left: auto;
@@ -131,5 +135,88 @@ a {
     color: #777777;
 }
 
+#form {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: #ffffff;
+    font-size: 15px;
+    color: #777777;
+}
 
-/* . for class # for id */
+input,
+textarea {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 15px;
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: #777777;
+    background: #ffffff;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    border: none;
+    color: #ffffff;
+    padding: 16px 20px;
+    text-decoration: none;
+    margin: 4px 0px;
+    cursor: pointer;
+    width: 130px;
+}
+
+.imgWrapper {
+    background: #ffffff;
+    border: none;
+    padding: 20px 10px;
+    margin: 10px 20px;
+    position: relative;
+    height: 600px;
+}
+
+.images {
+    position: absolute;
+    background: #ffffff;
+}
+
+#img1,
+#img2,
+#img3,
+#img4,
+#img5 {
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #777777;
+    background: #ffffff;
+}
+
+.desc {
+    position: absolute;
+    height: 30px;
+    width: 150px;
+    background: #4aaaa5;
+}
+
+#img1 {
+    top: 10px;
+    left: 10px;
+}
+
+#desc1 {
+    bottom: 15px;
+    left: 70px;
+    z-index: 3;
+}
+
+#img2 {
+    top: 20px;
+    left: 130px;
+    z-index: 4;
+}
+
+#img3 {
+    bottom: 10px;
+    left: 190px;
+    z-index: 1;
+}
